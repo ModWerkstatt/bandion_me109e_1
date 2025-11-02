@@ -17,7 +17,7 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/rumpf_109e_lod0.msh",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.58378, 0, 1.9279, 1, },
 					},
@@ -27,12 +27,12 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.7918, 1, },
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/prop_1_lod0.msh",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4532, 0, 1.8489, 1, },
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", "vehicle/plane/me109e/wash.mtl",},
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", "vehicle/plane/me109e/wash.mtl",},
 						mesh = "vehicle/plane/me109e/prop_1w_lod0.msh",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4532, 0, 1.8489, 1, },
 					},
@@ -42,52 +42,52 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/spornrad_lod0.msh",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9922, 0, 1.7504, 1, },
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/hoehe_lod0.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( -90,0,0 ) , vec3.new( -5.2443, 0 , 2.6412 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/seite_lod0.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( -5.3633, 0 , 2.6092 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/kuehler_l_lod0.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( -90.7,6.5,0 ) , vec3.new( -0.8455, 0.89395 , 1.2817 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/kuehler_r_lod0.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( -88.1,-6.5,0 ) , vec3.new( -0.8455, -0.89395 , 1.2817 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/klappe_l_lod0.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( -97.5,5.45,0 ) , vec3.new( -0.94623, 1.801 , 1.6778 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/klappe_r_lod0.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( -82.5,-5.5,0 ) , vec3.new( -0.94623, -1.801 , 1.6778 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/quer_l_lod0.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( 82.5,-5.5,0 ) , vec3.new( -0.67564, 3.8521 , 1.877 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/quer_r_lod0.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( -82.5,-5.5,0 ) , vec3.new( -0.67564, -3.8521 , 1.877 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -107,7 +107,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.30392, 0.54301 , 1.5012 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -127,7 +127,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.30392, -0.54301 , 1.5012 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -147,7 +147,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.33891, 0.49956 , 1.3932 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -167,7 +167,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.33891, -0.49956 , 1.3932 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -187,7 +187,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.52049, 0.97054 , 0.3436 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -218,7 +218,7 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/rumpf_109e_lod1.msh",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.58378, 0, 1.9279, 1, },
 					},
@@ -228,7 +228,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.7918, 1, },
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/prop_1_lod1.msh",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4532, 0, 1.8489, 1, },
 					},
@@ -238,52 +238,52 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/spornrad_lod1.msh",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9922, 0, 1.7504, 1, },
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/hoehe_lod1.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( -90,0,0 ) , vec3.new( -5.2443, 0 , 2.6412 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/seite_lod1.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( -5.3633, 0 , 2.6092 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/kuehler_l_lod1.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( -90.7,6.5,0 ) , vec3.new( -0.8455, 0.89395 , 1.2817 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/kuehler_r_lod1.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( -88.1,-6.5,0 ) , vec3.new( -0.8455, -0.89395 , 1.2817 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/klappe_l_lod1.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( 82.5,-5.45,0 ) , vec3.new( -0.94623, 1.801 , 1.6778 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/klappe_r_lod1.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( -82.5,-5.5,0 ) , vec3.new( -0.94623, -1.801 , 1.6778 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/quer_l_lod1.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( 82.5,-5.5,0 ) , vec3.new( -0.67564, 3.8521 , 1.877 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/quer_r_lod1.msh",
 						transf = transf.rotZYXTransl(transf.degToRad( -82.5,-5.5,0 ) , vec3.new( -0.67564, -3.8521 , 1.877 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -303,7 +303,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.30392, 0.54301 , 1.5012 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -323,7 +323,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.30392, -0.54301 , 1.5012 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -343,7 +343,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.33891, 0.49956 , 1.3932 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -363,7 +363,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.33891, -0.49956 , 1.3932 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -383,7 +383,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.52049, 0.97054 , 0.3436 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -403,7 +403,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.52049, -0.97054 , 0.3436 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", "vehicle/plane/me109e/wash.mtl",},
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", "vehicle/plane/me109e/wash.mtl",},
 						mesh = "vehicle/plane/me109e/prop_1w_lod0.msh",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4532, 0, 1.8489, 1, },
 					},
@@ -419,17 +419,17 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/rumpf_109e_lod2.msh",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.58378, 0, 1.9279, 1, },
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						mesh = "vehicle/plane/me109e/spornrad_lod2.msh",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9922, 0, 1.7504, 1, },
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -449,7 +449,7 @@ return {
 						transf = transf.rotZYXTransl(transf.degToRad( 0,0,0 ) , vec3.new( 0.52049, 0.97054 , 0.3436 )),
 					},
 					{
-						materials = { "vehicle/plane/me109e/rumpf1.mtl", },
+						materials = { "vehicle/plane/me109e/rumpf11.mtl", },
 						animations = {
 								close_wheels = {
 								params = {
@@ -590,7 +590,7 @@ return {
 		},
 		description = {
 			description = _("me109e_1_desc"),
-			name = _("me109e_1_name"),
+			name = _("me109e_11_name"),
 		},
 		emission = {
 			idleEmission = -1,
