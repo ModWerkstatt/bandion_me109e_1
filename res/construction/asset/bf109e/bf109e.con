@@ -1,0 +1,99 @@
+local vec3 = require "vec3"
+local transf = require "transf"
+
+function data()
+return {
+	type = "ASSET_DEFAULT",
+	description = {
+		name = _("bf109e_assets_name"),
+		description = _("bf109e_assets_desc")
+	},
+	availability = {},
+	buildMode = "MULTI",
+	categories = { "Plane Assets" },
+	order = 212210101,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "bf109e",
+			name = _("bf109e_assets_key_name"),
+			uiType = "ICON_BUTTON",
+			values = { 	"ui/construction/asset/bf109e/bf109_1@2x.tga",
+						"ui/construction/asset/bf109e/bf109_2@2x.tga",
+						"ui/construction/asset/bf109e/bf109_3@2x.tga",
+						"ui/construction/asset/bf109e/bf109_4@2x.tga",
+						"ui/construction/asset/bf109e/bf109_5@2x.tga",
+						"ui/construction/asset/bf109e/bf109_6@2x.tga",
+						"ui/construction/asset/bf109e/bf109_7@2x.tga",
+						"ui/construction/asset/bf109e/bf109_8@2x.tga",
+						"ui/construction/asset/bf109e/bf109_9@2x.tga",
+						"ui/construction/asset/bf109e/bf109_10@2x.tga",
+						"ui/construction/asset/bf109e/bf109_11@2x.tga",
+					},
+			tooltip = _("bf109e_assets_desc"),
+		},
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+		local height = 0
+
+
+		if params.bf109e == 0 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e1.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+		if params.bf109e == 1 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e2.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+		if params.bf109e == 2 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e3.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+		if params.bf109e == 3 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e4.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+		if params.bf109e == 4 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e5.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+		if params.bf109e == 5 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e6.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+		if params.bf109e == 6 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e6.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+		if params.bf109e == 7 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e6.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+		if params.bf109e == 8 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e6.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+		if params.bf109e == 9 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e6.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+		if params.bf109e == 10 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e6.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+		if params.bf109e == 11 then
+		result.models[#result.models+1] = {id = "asset/bf109e/bf109e6.mdl", transf = transf.rotZYXTransl(transf.degToRad(0, -16.5, 0) , vec3.new( 0, 0, -0.122 )), }
+		end
+
+
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end
