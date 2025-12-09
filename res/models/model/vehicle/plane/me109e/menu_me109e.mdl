@@ -42,7 +42,7 @@ return {
 			price = 0,
 		},
 		description = {
-			name = _("me109f_menu"),
+			name = _("me109e_menu"),
 		},
 		maintenance = {
 			lifespan = 0,
