@@ -1,7 +1,7 @@
 {
     "dependencies": null,
     "incompatibilities": null,
-    "modId": "modwerkstatt_bf109e",
+    "modId": "mw_bf109e",
     "params": null,
     "postRunScript": {
         "fileName": ""
@@ -9,7 +9,7 @@
     "preRunScript": {
         "fileName": ""
     },
-    "revision": 0,
+    "revision": 1,
     "runScript": {
         "fileName": ""
     }

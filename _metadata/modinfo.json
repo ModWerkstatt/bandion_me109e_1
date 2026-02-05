@@ -1,10 +1,22 @@
 {
+    "name": "Messerschmitt BF 109 E",
+    "summary": "SUMMARY",
+    "description": "In January 1939, production of the Bf 109 was switched to the new E version with a new engine. The Bf 109 E proved to be an extremely good fighter aircraft and made up the majority of German fighter units, even though its range was limited. There were many variants and paint schemes.",
+    "localization" : {
+        "de": {
+            "name": "Messerschmitt BF 109 E",
+            "summary": "SUMMARY",
+            "description": "Im Januar 1939 wurde die Produktion der Bf 109 auf die neue Version E mit einem neuen Motor umgestellt. Die Bf 109 E erwies sich als äußerst gutes Jagdflugzeug und stellte den überwiegeden Teil der deutschen Jagdeinheiten, auch wenn ihre Reichweite begrenzt war. Es gab viele Varianten und Lackierungen."
+        }
+    },
     "authors": [
         {
-            "name": "",
+            "name": "Modwerkstatt",
             "role": "CREATOR"
         }
     ],
-    "name": "",
-    "url": ""
+    "tags": [
+        "Plane"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/me-bf109-e"
 }
