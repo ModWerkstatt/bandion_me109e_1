@@ -12,5 +12,7 @@
     "revision": 1,
     "runScript": {
         "fileName": ""
-    }
+    },
+    "severityAdd": "None",
+    "severityRemove": "Warning"
 }
